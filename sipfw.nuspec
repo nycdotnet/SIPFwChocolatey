@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>sipfw</id>
+    <title>SIP Framework</title>
+    <version>1.0.3.4</version>
+    <authors>Red Gate Software</authors>
+    <owners>NYCdotnet</owners>
+    <summary>The Red Gate SSMS Ecosystem is a framework that makes it easy to develop, share and manage SSMS add-ins.</summary>
+    <description>This is the SIP Framework which is required to run SSMS Ecosystem add-ins.</description>
+    <projectUrl>http://documentation.red-gate.com/display/MA/SSMS+ecosystem+project</projectUrl>
+    <tags>RedGate red gate SIP SIPFw SSMS Ecosystem</tags>
+    <copyright>2014</copyright>
+    <licenseUrl>http://documentation.red-gate.com/display/MA/Redistributing+the+framework</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+  * Compiled 2014-05-16.  Specific fixes not documented.
+	</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
